@@ -1,9 +1,39 @@
+html{
+    font-size: 62.5%;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    max-width: 780px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: auto auto;
 
+}
+
+section.calculator {
+    background-color: black;
+    height: 400px;
+    border-radius: 5%;
+    margin: 100px auto;
+    width: 300px;
+}
+
+.calculator-buttons  {
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.equal {
+    
+}
+
+.calculator-screen {
+    width: 100%;
+    background-color: white;
+    border-radius: 5%;
+    height: 50px;
 }
