@@ -8,3 +8,15 @@ const keys = document.querySelector('.calculator-buttons');
             console.log(value)
         }
     })
+
+const calculator = {
+    displayText: '0',
+    prevTotal: null,
+
+    parseInput(value) {
+        switch(value) {
+            case '=':
+                
+        }
+    }
+}
